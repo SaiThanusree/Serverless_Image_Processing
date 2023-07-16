@@ -1,1 +1,3 @@
-# Serverless_Image_Processing
+Serverless image processing refers to the practice of performing image manipulation and transformation tasks in a serverless computing environment. Instead of managing and scaling traditional server infrastructure, serverless image processing leverages cloud-based services, such as AWS Lambda, Azure Functions, or Google Cloud Functions, to process images on-demand.
+
+In a serverless image processing architecture, images are typically stored in object storage services like Amazon S3 or Azure Blob Storage. When an image is uploaded or an event is triggered, a serverless function is invoked to process the image. The function retrieves the image from the storage, performs the required image transformations or manipulations (e.g., resizing, cropping, filtering), and then stores the processed image back into the storage or serves it to the end-user.# Serverless_Image_Processing
